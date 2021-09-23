@@ -11,6 +11,7 @@ public class Tipos_de_datos {
 		float float_var = Float.MAX_VALUE;
 		double double_var = Double.MAX_VALUE;
 		char char_var = Character.MAX_VALUE;
+		boolean bool_var = Boolean.TRUE;
 		
 		System.out.println(
 				byte_var+"\n"+
@@ -20,6 +21,7 @@ public class Tipos_de_datos {
 				float_var+"\n"+
 				double_var+"\n"+
 				char_var+"\n"+
-				(int)char_var);
+				(int)char_var+"\n"+
+				bool_var);
 	}
 }
