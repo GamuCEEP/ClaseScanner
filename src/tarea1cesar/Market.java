@@ -46,13 +46,13 @@ __Resultado por consola:________________________________________________________
  	num_empleados=7, num_proveedores=10, num_repartidores=3, ciudad=Sevilla, direccion=C/Pizarro 5000	
 	num_empleados=11, num_proveedores=10, num_repartidores=5, ciudad=Sevilla, direccion=C/Pizarro 5000	
 	Escribe el año de fundación																			
-inp:8																									
+inp:	8																									
 	ano_fundacion=8, num_empleados=15, ciudad=Sevilla, direccion=C/Pizarro 5000							
 	Escribe el año de fundación																			
-inp:5																									
+inp:	5																									
 	ano_fundacion=5, num_empleados=18, ciudad=Sevilla, direccion=C/Pizarro 5000							
 	num_empleados=22, num_proveedores=10, num_repartidores=4, ciudad=Sevilla, direccion=C/Pizarro 5000	
 	Escribe el año de fundación																			
-inp:5																									
+inp:	5																									
 	ano_fundacion=5, num_empleados=30, ciudad=Zaragoza, direccion=C/Magallanes 6000						
 ________________________________________________________________________________________________________*/
