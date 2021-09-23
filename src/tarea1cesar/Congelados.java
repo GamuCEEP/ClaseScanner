@@ -1,14 +1,14 @@
-package tareascesar;
+package tarea1cesar;
 
 import java.util.Scanner;
 
-public class Tarea1_congelados extends Tarea1_market {
+public class Congelados extends Market {
 
 	public String ano_fundacion;
 	private Scanner scan = new Scanner(System.in);
 
 	// Constructor basico
-	public Tarea1_congelados(byte num_empleados) {
+	public Congelados(byte num_empleados) {
 		// LLama al constructor de market
 		super();
 
@@ -17,11 +17,11 @@ public class Tarea1_congelados extends Tarea1_market {
 		this.ano_fundacion = scan.nextLine();
 
 		// Añade el numero de empleados a la variable de market
-		Tarea1_market.num_empleados += num_empleados;
+		Market.num_empleados += num_empleados;
 	}
 
 	// Constructor para sobreescribir los datos del market (Sobrecarga)
-	public Tarea1_congelados(String ciudad, String direccion, byte num_empleados) {
+	public Congelados(String ciudad, String direccion, byte num_empleados) {
 		// Sobreescribe los datos de market
 		this.ciudad = ciudad;
 		this.direccion = direccion;
@@ -31,7 +31,7 @@ public class Tarea1_congelados extends Tarea1_market {
 		this.ano_fundacion = scan.nextLine();
 
 		// Añade el numero de empleados a la variable de market
-		Tarea1_market.num_empleados += num_empleados;
+		Market.num_empleados += num_empleados;
 	}
 
 	// Muestra toda la informacion del objeto (Sobrescritura)

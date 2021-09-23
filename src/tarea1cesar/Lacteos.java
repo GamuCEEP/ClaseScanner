@@ -1,11 +1,11 @@
-package tareascesar;
+package tarea1cesar;
 
-public class Tarea1_lacteos extends Tarea1_market {
+public class Lacteos extends Market {
 
 	public byte num_proveedores, num_repartidores;
 
 	// Constructor basico
-	public Tarea1_lacteos(byte num_empleados, byte num_proveedores) {
+	public Lacteos(byte num_empleados, byte num_proveedores) {
 		// Llama al constructor de market
 		super();
 
@@ -14,7 +14,7 @@ public class Tarea1_lacteos extends Tarea1_market {
 		this.num_proveedores = num_proveedores;
 
 		// Añade el numero de empleados a la variable de market
-		Tarea1_market.num_empleados += num_empleados;
+		Market.num_empleados += num_empleados;
 	}
 
 	// Muestra toda la informacion del objeto (Sobrescritura)
