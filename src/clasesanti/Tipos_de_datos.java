@@ -1,4 +1,4 @@
-package claseescaner;
+package clasesanti;
 
 public class Tipos_de_datos {
 
