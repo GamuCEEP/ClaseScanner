@@ -3,7 +3,7 @@ package claseescaner;
 import java.util.Scanner;
 
 
-public class Launch {
+public class Prueba_Scanner {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
