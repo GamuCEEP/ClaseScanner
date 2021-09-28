@@ -3,3 +3,7 @@
 .project
 .settings/org.eclipse.jdt.core.prefs
 *.class
+/JavaApplication5/nbproject/private/
+*.xml
+*.mf
+*.properties
