@@ -16,7 +16,7 @@ public class Congelados extends Market {
 		// Pide el año de fundacion y lo guarda
 		System.out.println("Escribe el año de fundación");
 		this.ano_fundacion = scan.nextLine();
-		this.num_empleadosC = num_empleados
+		this.num_empleadosC = num_empleados;
 		// Añade el numero de empleados a la variable de market
 		Market.num_empleados += num_empleados;
 	}
