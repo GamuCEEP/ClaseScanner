@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Congelados extends Market {
 
 	public String ano_fundacion;
+	public byte num_empleadosC;
 	private Scanner scan = new Scanner(System.in);
 
 	// Constructor basico
@@ -12,11 +13,11 @@ public class Congelados extends Market {
 		// LLama al constructor de market
 		super();
 
-		// Pide el año de fundacion y lo guarda
-		System.out.println("Escribe el año de fundación");
+		// Pide el aÃ±o de fundacion y lo guarda
+		System.out.println("Escribe el aÃ±o de fundaciÃ³n");
 		this.ano_fundacion = scan.nextLine();
-
-		// Añade el numero de empleados a la variable de market
+		this.num_empleadosC = num_empleados
+		// AÃ±ade el numero de empleados a la variable de market
 		Market.num_empleados += num_empleados;
 	}
 
@@ -26,17 +27,17 @@ public class Congelados extends Market {
 		this.ciudad = ciudad;
 		this.direccion = direccion;
 
-		// Pide el año de fundacion y lo guarda
-		System.out.println("Escribe el año de fundación");
+		// Pide el aÃ±o de fundacion y lo guarda
+		System.out.println("Escribe el aÃ±o de fundaciÃ³n");
 		this.ano_fundacion = scan.nextLine();
 
-		// Añade el numero de empleados a la variable de market
+		// AÃ±ade el numero de empleados a la variable de market
 		Market.num_empleados += num_empleados;
 	}
 
 	// Muestra toda la informacion del objeto (Sobrescritura)
 	public void mostrar() {
-		System.out.println("ano_fundacion=" + ano_fundacion + ", num_empleados=" + num_empleados + ", ciudad=" + ciudad
+		System.out.println("ano_fundacion=" + ano_fundacion + ", num_empleados=" + num_empleados + "num_empleadosC=" + num_empleadosC + ", ciudad=" + ciudad
 				+ ", direccion=" + direccion);
 	}
 }
