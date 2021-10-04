@@ -11,8 +11,8 @@ package tarea2cesar;
  */
 public class Jugador {
 
-    String nombre_equipo;
-    short num_jugador, anio_nacimiento;
+    public String nombre_equipo;
+    public short num_jugador, anio_nacimiento;
 
     public Jugador() {
         this.nombre_equipo = "CD Horche";

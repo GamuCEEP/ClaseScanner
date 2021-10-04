@@ -21,13 +21,9 @@ public class Portero extends Jugador{
         this.en_extranjero = en_extranjero;
     }
     public Portero(String nombre_equipo, short goles_encajados, boolean en_extranjero){
+        this(goles_encajados, en_extranjero);
+        
         this.nombre_equipo = nombre_equipo;
-        
-        Portero.total_porteros ++;
-        Portero.total_goles_encajados += goles_encajados;
-        Portero.media_goles_encajados = (short)(Portero.total_goles_encajados / Portero.total_porteros);
-        
-        this.en_extranjero = en_extranjero;
     }
     public void mostrarP(){
         mostrar();
