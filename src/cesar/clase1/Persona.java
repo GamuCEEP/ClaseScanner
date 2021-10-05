@@ -1,4 +1,4 @@
-package clasecesar;
+package cesar.clase1;
 
 import java.util.Scanner;
 

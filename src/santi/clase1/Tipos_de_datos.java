@@ -1,4 +1,4 @@
-package clasesanti;
+package santi.clase1;
 
 public class Tipos_de_datos {
 

@@ -1,4 +1,4 @@
-package clasesanti;
+package santi.clase1;
 
 import java.util.Scanner;
 
